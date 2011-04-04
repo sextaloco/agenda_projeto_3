@@ -1,0 +1,42 @@
+<ui:composition template="/templates/default.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.prime.com.tr/ui"
+	>
+
+	<ui:define name="conteudo">
+		<h:form id="form" prependId="false">
+			<em>Um email foi enviado para o seu email com o código de desbloqueio da conta. Caso não tenha recebido, <a href="#" title="">clique aqui</a> para enviar novamente.</em>
+			<!-- Informa as mensagens de erro -->
+			<!-- Email-->
+			<h:panelGroup id="emailGroup" styleClass="groups"> 
+			<em>Email</em> 
+			<h:message for="emailField" id="emailErrorMessage" styleClass="error-message" />
+				<h:inputText id="emailField" required="true" label="Email"
+					requiredMessage="email deve ser preenchido"
+					value="#{estabelecimentoController.emailDesbloqueio}">
+					<f:ajax event="blur" execute="@this" render="emailErrorMessage" ></f:ajax>
+				</h:inputText> 
+			</h:panelGroup>
+			
+			<h:panelGroup id="codigoGroup" styleClass="groups"> 
+			<em>Código de desbloqueio</em> 
+			<h:message for="codigoField" id="codigoErrorMessage" styleClass="error-message" />
+				<h:inputText id="codigoField" required="true" label="Código"
+					requiredMessage="código deve ser preenchido"
+					value="#{estabelecimentoController.codigoDesbloqueio}">
+					<f:ajax event="blur" execute="@this" render="codigoErrorMessage" ></f:ajax>
+				</h:inputText> 
+			</h:panelGroup>
+
+			<h:panelGroup style="display:inline">
+				<h:commandButton id="salvarBtn" value="Avançar"
+					action="#{estabelecimentoController.doSalvar}" />
+			</h:panelGroup>
+		</h:form>
+		<span class="clear"> </span>
+	</ui:define>
+
+</ui:composition>

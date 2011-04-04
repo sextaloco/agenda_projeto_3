@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" auto-publish-time="0" hostname="localhost" id="GlassFish 3.1 at localhost" name="GlassFish 3.1 at localhost" runtime-id="GlassFish 3.1" server-type="org.glassfish.jst.server.glassfish31" server-type-id="org.glassfish.jst.server.glassfish31" start-timeout="480" stop-timeout="240" timestamp="4">
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.jee.server:AgendaEAR"/>
+    <map key="generic_server_instance_properties" sunappserver.adminname="admin" sunappserver.adminpassword="" sunappserver.adminserverportnumber="4848" sunappserver.domainpath="D:/Java/glassfishv3/glassfish/domains/domain1" sunappserver.keepSessions="true" sunappserver.serveraddress="localhost" sunappserver.serverportnumber="8080"/>
+    <list key="modules" value0="AgendaEAR::org.eclipse.jst.jee.server:AgendaEAR::jst.ear::6.0"/>
+  </server>
+</servers>

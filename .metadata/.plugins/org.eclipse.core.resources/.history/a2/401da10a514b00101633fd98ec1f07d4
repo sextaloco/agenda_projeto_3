@@ -1,0 +1,7 @@
+package agenda.entidades;
+
+public class EstabelecimentoTest {
+	public static void main(String[] args) {
+		JOptionPane.showM(new Estabelecimento().gerarNumeroDesbloqueio());
+	}
+}

@@ -1,0 +1,33 @@
+* {margin: 0;padding: 0;}
+body {font: normal 62.5% Calibri, Arial, Sans-serif;border-top: 5px solid #000;background: transparent url(../images/bg.jpg) repeat center center;}
+a:link, a:visited, a:hover, a:active {text-decoration: none;color: #000;}
+ul {list-style: none;}
+.clear {display: block;height: 1px;clear: both;}
+img {border: none;}
+
+#container {width: 980px;margin: 0 auto;padding: 10px;background-color: #FFF;}
+#container #top {border-bottom: 1px solid #000;}
+#container #top a.brand {margin: 10px 0;float: left;}
+#container #top ul {margin: 35px 10px 0 0;float: left;}
+#container #top ul li {margin: 0 2px;float: left;}
+#container #top ul li a {padding: 0 5px;font-size: 1.4em;border-top: 2px solid #06C;}
+#container #top ul li a:hover {color: #06C;}
+
+#container #content form {width: 510px;float: left;background: transparent url(../images/shadow.gif) no-repeat center right;}
+#container #content form > em {font-size: 2em;margin: 40px 0 10px;display: block;}
+#container #content form > span.groups {width: 490px;margin: 5px 0;padding: 5px;font-size: 1.4em;background-color: #BADED6;border: 1px solid #BADED6;float: left;-webkit-border-radius: .4em;-moz-border-radius: .4em;position: relative;}
+#container #content form > span.groups-error {background-color: #FF8C8C;border: 1px solid #FF8C8C;color: #900;}
+#container #content form > span.groups-error input {border: 1px solid #900;}
+#container #content form > span.groups span.error-message {font-size: .9em;color: #900;font-weight: bold; position: absolute;top: 0px;right: 7px;}
+#container #content form > span.groups span.help {padding: 3px 5px;background-color: #FFF;border: 1px solid #999;font-size: .9em;position: absolute;left: 50px;top: -10px;-webkit-box-shadow: .4em .4em .9em #000;;-moz-box-shadow: .4em .4em .9em #000;-webkit-border-radius: .4em;-moz-border-radius: .4em;}
+#container #content form > span.groups > label{font-size: 1.4em;display: block;}
+#container #content form > span.groups > label em {font-size: .6em;display: inline;}
+#container #content form > span.groups em {font-style: normal;display: block;}
+#container #content form span.groups input[type="text"] {border: 1px solid #01222C;width: 487px;height: 30px;}
+#container #content form span.groups textarea {border: 1px solid #01222C;width: 487px;font-family: Calibri, Arial, Sans-serif;}
+#container #content form span.groups input[type="password"]{border: 1px solid #01222C;width: 235px;height: 30px;}
+#container #content form input[type="submit"]{margin: 5px 7px 0 0;padding: 5px 10px;color: #FFF;border: none;background-color: #444;float: right;-webkit-border-radius: .4em;-moz-border-radius: .4em;}
+#container #content form input[type="submit"]:hover {background-color: #2C2C2C;cursor: pointer;}
+#container #content form span.groups .double {padding-top: 7px;float: left;position: relative;}
+#container #content form span.groups .double:first-child {margin-right: 15px;}
+#container #content form span.groups .double span.error-message{top: -5px;}

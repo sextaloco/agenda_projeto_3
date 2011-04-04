@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+D:\ws_agenda\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1676016788.index
+808797858.index
+1692943737.index
+2247646070.index
+902580768.index

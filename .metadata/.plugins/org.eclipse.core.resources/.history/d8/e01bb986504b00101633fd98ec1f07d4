@@ -1,0 +1,113 @@
+package agenda.entidades;
+
+import java.io.Serializable;
+import java.util.Calendar;
+import java.util.Random;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.PrePersist;
+
+import agenda.validadores.bean.Email;
+import agenda.validadores.bean.Login;
+
+@Entity
+@NamedQueries({
+	@NamedQuery(name="Estabelecimento.buscarEstabelecimentoPorEmail", query="SELECT e FROM Estabelecimento e WHERE UPPER(e.email) = UPPER(:email)"),
+	@NamedQuery(name="Estabelecimento.verificarSeEmailExiste", query="SELECT count(e) FROM Estabelecimento e WHERE UPPER(e.email) = UPPER(:email)"),
+	@NamedQuery(name="Estabelecimento.verificarSeLoginExiste", query="SELECT count(e) FROM Estabelecimento e WHERE UPPER(e.login) = UPPER(:login)")
+
+})
+public class Estabelecimento implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Long id;
+	@Login
+	@Column(nullable=false, unique=true)
+	private String login;
+	@Email
+	@Column(nullable=false, unique=true)
+	private String email;
+	@Column(nullable=false)
+	private String senha;
+	private Long codigoBloqueio;
+		
+	@PrePersist
+	public void onCreate(){
+		codigoBloqueio = Math.abs(new Random().nextLong());
+	}
+	
+	//Metodos auxiliares
+	public void desbloquearEstabelecimento(){
+		codigoBloqueio = null;
+	}
+	
+	public static boolean verificarSeEstabelecimentoPossuiId(Estabelecimento estabelecimento){
+		if(estabelecimento.id!=null&&estabelecimento.id>0){
+			return true;
+		}else{
+			return false;
+		}	
+	}
+	
+	public static boolean verificarSeEstabelecimentoEstaBloqueado(Estabelecimento estabelecimento){
+		if(estabelecimento.getCodigoBloqueio()!=null&&estabelecimento.getCodigoBloqueio()>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	//Getters e Setters
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public Long getCodigoBloqueio() {
+		return codigoBloqueio;
+	}
+
+	public void setCodigoBloqueio(Long codigoBloqueio) {
+		this.codigoBloqueio = codigoBloqueio;
+	}
+
+
+
+}

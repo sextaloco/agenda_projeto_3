@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Double valorCompra = new Double(JOptionPane.showInputDialog("Valor de compra da ação"));
+		Integer quantidadeCompra = new Integer(JOptionPane.showInputDialog("Quantidade?"));
+		String resposta = "";
+		
+		for(int i=-40; i<40; i++){
+			resposta += valorCompra+(i*0.01);
+			resposta += " - ";
+			resposta += quantidadeCompra*(i*0.01);
+			resposta += "\n";
+		}
+		
+		JOptionPane.showMessageDialog(null, resposta);
+	}
+
+}

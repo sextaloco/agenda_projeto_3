@@ -1,0 +1,71 @@
+<ui:composition template="/templates/default.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<!-- 	xmlns:p="http://primefaces.prime.com.tr/ui"
+			<label for="captcha"> <em>Captcha!</em> <span> <p:captcha
+						id="capitcha" label="Captcha" language="pt" theme="white" /> <h:message
+						for="capitcha" /> </span> </label>
+
+ -->
+	<ui:define name="conteudo">
+		<h:form id="form" prependId="false">
+			<em>Em alguns instantes você poderá deixar sua agenda visível
+				para quem quiser!</em>
+			<!-- Informa as mensagens de erro -->
+			<!-- Login-->
+			<label for="loginField"> <em>Login <a href="javascript: void(0)" title="help" class="help">[?]</a></em> <h:message
+					id="loginErroMessage" for="loginField" styleClass="error-message" />
+				<h:inputText id="loginField" required="true" label="Login"
+					requiredMessage="login deve ser preenchido"
+					value="#{estabelecimentoController.estabelecimento.login}">
+					<f:validator validatorId="loginUnicoValidator" />
+				</h:inputText> <span class="preview">www.agendadahora.com.br/</span> </label>
+
+			<!-- Email -->
+			<label for="emailField"> <em>Email</em> <h:message
+					for="emailField" id="emailErroMessage" styleClass="error-message" />
+				<h:inputText id="emailField" required="true" label="Email"
+					requiredMessage="email deve ser preenchido"
+					value="#{estabelecimentoController.estabelecimento.email}">
+					<f:validator validatorId="emailUnicoValidator" />
+				</h:inputText> </label>
+
+
+			<!-- Senha -->
+			<label for="password"> <span class="double"> <em>Senha</em>
+					<h:message id="senhaErroMessage" for="senhaField"
+						styleClass="error-message" /> <h:inputSecret required="true"
+						id="senhaField" requiredMessage="senha deve ser preenchida"
+						value="#{estabelecimentoController.estabelecimento.senha}">
+					</h:inputSecret> </span> <span class="double"> <em>Confirmar Senha</em> <h:message
+						for="confSenhaField" id="confSenhaErroMessage"
+						styleClass="error-message" /> <h:inputSecret required="true"
+						requiredMessage="confirmar senha deve ser preenchida"
+						id="confSenhaField">
+						<f:validator validatorId="senhaValidator" />
+						<f:attribute name="senhaId" value="form:senhaField" />
+					</h:inputSecret> </span> </label>
+
+			<!-- Captcha -->
+
+			<span class="clear"></span>
+			<em>Escolha o tipo de sua conta</em>
+			<label for="type_free"><input type="radio" name="type"
+				value="type_free" /> Free</label>
+			<label for="type_premium"><input type="radio" name="type"
+				value="type_premium" /> Premium <em>(R$ 29,90/mês)</em>
+			</label>
+
+			<h:panelGroup style="display:inline">
+				<h:commandButton id="salvarBtn" value="Avançar"
+					action="#{estabelecimentoController.doSalvar}" />
+
+			</h:panelGroup>
+		</h:form>
+		<span class="clear"> </span>
+	</ui:define>
+
+</ui:composition>

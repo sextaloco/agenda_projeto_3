@@ -1,0 +1,89 @@
+<ui:composition template="/templates/default.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<!-- 	xmlns:p="http://primefaces.prime.com.tr/ui"
+			<label for="captcha"> <em>Captcha!</em> <span> <p:captcha
+						id="capitcha" label="Captcha" language="pt" theme="white" /> <h:message
+						for="capitcha" /> </span> </label>
+
+ -->
+	<ui:define name="conteudo">
+		<h:form id="form" prependId="false">
+			<em>Em alguns instantes você poderá deixar sua agenda visível
+				para quem quiser!</em>
+			<!-- Informa as mensagens de erro -->
+			<!-- Login-->
+			<h:panelGroup id="loginGroup" styleClass="groups">
+			<em>Login <a href="javascript: void(0)" title="help" class="help">[?]</a></em> 
+			<h:message id="loginErrorMessage" for="loginField" styleClass="error-message" />
+				<h:inputText id="loginField" required="true" label="Login"
+					requiredMessage="login deve ser preenchido"
+					value="#{estabelecimentoController.estabelecimento.login}">
+					<f:validator validatorId="loginUnicoValidator" />
+					<f:ajax event="blur" execute="@this" render="loginOutput loginErrorMessage" ></f:ajax>
+				</h:inputText> 
+				<span class="preview">
+					www.agendadahora.com.br/<h:outputText id="loginOutput" value="#{estabelecimentoController.estabelecimento.login}"/>
+				</span>
+			</h:panelGroup>
+			
+			<!-- Email -->
+			<h:panelGroup id="emailGroup" styleClass="groups"> 
+			<em>Email</em> 
+			<h:message for="emailField" id="emailErrorMessage" styleClass="error-message" />
+				<h:inputText id="emailField" required="true" label="Email"
+					requiredMessage="email deve ser preenchido"
+					value="#{estabelecimentoController.estabelecimento.email}">
+					<f:validator validatorId="emailUnicoValidator" />
+					<f:ajax event="blur" execute="@this" render="emailErrorMessage" ></f:ajax>
+				</h:inputText> 
+			</label>
+			</h:panelGroup>
+			
+			<!-- Senha -->
+			<h:panelGroup id="senhaGroup" styleClass="grupos"> 
+				<span class="double"> <em>Senha</em>
+						<h:message id="senhaErrorMessage" for="senhaField"
+							styleClass="error-message" /> 
+							
+						<h:inputSecret required="true"
+							id="senhaField" requiredMessage="senha deve ser preenchida"
+							value="#{estabelecimentoController.estabelecimento.senha}">
+								<f:ajax event="blur" execute="@this" render="senhaErrorMessage" ></f:ajax>
+						</h:inputSecret> 
+				</span> 
+				<span class="double"> <em>Confirmar Senha</em> 
+					<h:message for="confSenhaField" id="confSenhaErrorMessage" styleClass="error-message" /> 
+					<h:inputSecret required="true"
+						requiredMessage="confirmar senha deve ser preenchida"
+						id="confSenhaField">
+						<f:validator validatorId="senhaValidator" />
+						<f:attribute name="senhaId" value="form:senhaField" />
+						<f:ajax event="blur" execute="@this" render="confSenhaErrorMessage" ></f:ajax>
+					</h:inputSecret> 
+				</span>
+			</h:panelGroup>
+
+			<!-- Captcha -->
+
+			<span class="clear"></span>
+<!-- 			<em>Escolha o tipo de sua conta</em> -->
+<!-- 			<label for="type_free"><input type="radio" name="type" -->
+<!-- 				value="type_free" /> Free</label> -->
+<!-- 			<label for="type_premium"><input type="radio" name="type" -->
+<!-- 				value="type_premium" /> Premium <em>(R$ 29,90/mês)</em> -->
+<!-- 			</label> -->
+
+			<h:panelGroup style="display:inline">
+				<h:commandButton id="salvarBtn" value="Avançar"
+					action="#{estabelecimentoController.doSalvar}" />
+
+			</h:panelGroup>
+		</h:form>
+		<span class="clear"> </span>
+	</ui:define>
+
+</ui:composition>

@@ -1,0 +1,9 @@
+package agenda.entidades;
+
+import javax.swing.JOptionPane;
+
+public class EstabelecimentoTest {
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null,new Estabelecimento().gerarNumeroDesbloqueio());
+	}
+}

@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String valorCompra = JOptionPane.showInputDialog("Valor de compra da ação");
+		String quantidadeCompra = JOptionPane.showInputDialog("Quantidade?");
+		String resposta;
+	}
+
+}

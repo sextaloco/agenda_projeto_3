@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698750562
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299698750592
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299698779838
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299698790056
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299698791381
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299698791394
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698792073
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299698797611
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299698797614
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698797859
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698799442
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698929245
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299698936248
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1299698942218
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299698944583
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299698947524
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299698948757
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299698948775
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698949390
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299698955277
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299698955279
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698955521
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299698956227
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699025861
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699033988
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699047260
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699053386
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699055853
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699055866
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699056554
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699061537
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699061539
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699061774
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699063640
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699094234
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699096106
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299699135659
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699162040
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299699200546
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699208435
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1299699218059
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299699228034
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699231470
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299699232282
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699243925
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1299699250266
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699273531
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699297054
+activated,editor,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.core.csssource.source",1299699300457
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1299699307519
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699310196
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699316516
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699319099
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699319115
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699319846
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699325470
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699325474
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699325729
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699327681
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699351361
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699354041
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.cut",1299699418827
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1299699420353
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699422643
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699433940
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699494935
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699499697
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699500813
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699500834
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699501477
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699507049
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699507051
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699507341
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699507947
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699545508
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699556003
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699562744
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1299699577601
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699580573
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699583608
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699586427
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699586440
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699587165
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699592908
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699592910
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699593176
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699596145
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699618960
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699623015
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699625423
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699633633
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699635715
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699635762
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699636394
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699641617
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699641619
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699644768
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699645646
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699669754
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699677861
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299699681846
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699696482
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699746196
+activated,editor,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.core.csssource.source",1299699747820
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699748974
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1299699771237
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1299699774784
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699776219
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699778510
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699781040
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699781057
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699781712
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699787119
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699787121
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699787383
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699791221
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699810337
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699815370
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699817639
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699818967
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699821158
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699821171
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699821966
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699828339
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699828341
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699828590
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699830905
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699847607
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699857834
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699868489
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699898245
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699934362
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699943870
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699946411
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699948083
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699948115
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699948785
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699951225
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299699951256
+executed,command,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment",1299699953778
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699954914
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699954916
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299699955258
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299699965656
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299699968198
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299699968210
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699968789
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299699973718
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299699973722
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699973970
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299699981837
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700000715
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700022337
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700023958
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700024019
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700033092
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700034735
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700036659
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700036699
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700037277
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700042620
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700042621
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700042867
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700044976
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700066030
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700071340
+executed,command,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment",1299700077728
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700094419
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700096913
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700099144
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700099157
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700099796
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700105553
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700105554
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700105782
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700108191
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700159028
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700165682
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700172056
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1299700173970
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1299700175313
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1299700176901
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1299700177832
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700180725
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700183180
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700184641
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700184677
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700186303
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700186328
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700186989
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700192771
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700192773
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700215279
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700215311
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700276394
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700302791
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1299700310821
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1299700311457
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1299700311993
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.undo",1299700317525
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700319566
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700413846
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700416162
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700417254
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700417268
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700417971
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700424255
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700424256
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700424491
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700425668
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700425856
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700425870
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700450770
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700461374
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700472258
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700477540
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700480463
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700480531
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700481121
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700486138
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700486139
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700486373
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700487731
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700521902
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700532346
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700536948
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700560027
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299700567148
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700577947
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700578979
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700580441
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700580492
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700581127
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700587821
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700587823
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700588092
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700594413
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700596373
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700596569
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700641409
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1299700643139
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700644930
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700648514
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700670350
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700684716
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700686321
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700689466
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700689486
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700690210
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700694726
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700694727
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700695005
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700705907
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700750602
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1299700756214
+executed,command,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment",1299700767005
+executed,command,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment",1299700773675
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700775077
+activated,editor,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.core.csssource.source",1299700777425
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700798030
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700806624
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700810852
+executed,command,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.publish",1299700813343
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 1 AgendaEAR",1299700813405
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700813993
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=0 2 AgendaEAR",1299700820386
+error,log,,,"GlassFish: publishModule kind= 1  deltaKind=2 2 AgendaEAR",1299700820388
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700820622
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700840338
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1299700879026
+activated,editor,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.core.csssource.source",1299700882511
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.cut",1299700900689
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1299700903781
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1299700904813
+activated,view,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui.ServersView",1299700906822

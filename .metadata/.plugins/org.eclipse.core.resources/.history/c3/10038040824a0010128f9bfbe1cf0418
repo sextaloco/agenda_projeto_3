@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<title>:: Agenda DaHora</title>
+<!-- 	<script type="text/javascript" language="javascript" src="#{request.contextPath}/resources/js/jquery.min.js"></script> -->
+	<script type="text/javascript" language="javascript" src="#{request.contextPath}/resources/js/tools.js"></script>
+
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/resources/themes/redmond/skin.css" />
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/resources/css/layout.css" />
+</h:head>
+<h:body>
+	<div id="container">
+		<div id="top">
+			<a href="#" title="Agenda DaHora" class="brand"> <h:graphicImage
+					library="images" name="logo.gif" title="logo" alt="logo" /> </a>
+			<ul>
+				<li><a href="#" title="meus horários">meus horários</a></li>
+				<li><a href="#" title="meus dados">meus dados</a></li>
+				<li><a href="#" title="login">login</a></li>
+			</ul>
+			<span class="clear">&nbsp;</span>
+		</div>
+		<div id="content">
+			<ui:insert name="conteudo" />
+		</div>
+	</div>
+</h:body>
+
+</html>
